@@ -1,6 +1,6 @@
-# 📇 ESP32 Business Card
+# 📇 ESP32 Business Card (Cheap Yellow Display)
 
-A interactive digital business card running on an ESP32 with a 2.4" ILI9341 TFT touchscreen. Built with LVGL 8 — swipeable cards showing my identity, contact info, and project portfolio. Tapping any project opens a live QR code.
+An interactive digital business card running on the **ESP32 Cheap Yellow Display (CYD)** (specifically the `ESP32-2432S028R` 2.8" TFT touchscreen model). Built with LVGL 8 — swipeable cards showing my identity, contact info, and project portfolio. Tapping any project opens a live QR code.
 
 > **Hardware project by [Zaid Izzuddin](https://zedizu.site)** — feel free to fork, remix, and build your own.
 
@@ -23,10 +23,12 @@ A interactive digital business card running on an ESP32 with a 2.4" ILI9341 TFT 
 
 | Component | Details |
 |---|---|
-| **MCU** | ESP32 (ESP32-WROOM-32 dev board) |
-| **Display** | 2.4" ILI9341 TFT LCD — 320×240, SPI |
+| **Development Board** | **ESP32 Cheap Yellow Display (CYD)** / `ESP32-2432S028R` |
+| **MCU** | ESP32-D0WDQ6 (dual-core Tensilica LX6) |
+| **Display** | 2.8" ILI9341/ILI9341V TFT LCD — 320×240, SPI |
 | **Touch Controller** | XPT2046 resistive touch (on-board, same PCB as display) |
 | **Backlight** | Active HIGH via GPIO21 |
+
 
 ### Wiring — Display (TFT_eSPI / ILI9341)
 
