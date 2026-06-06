@@ -1,5 +1,7 @@
 # 📇 ESP32 Business Card (Cheap Yellow Display)
 
+![ESP32 Business Card Preview](images/preview.jpg)
+
 An interactive digital business card running on the **ESP32 Cheap Yellow Display (CYD)** (specifically the `ESP32-2432S028R` 2.8" TFT touchscreen model). Built with LVGL 8 — swipeable cards showing my identity, contact info, and project portfolio. Tapping any project opens a live QR code.
 
 > **Hardware project by [Zaid Izzuddin](https://zedizu.site)** — feel free to fork, remix, and build your own.
